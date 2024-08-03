@@ -1,10 +1,12 @@
-
+import WebCam from './component/WebCam'
 import './App.css'
 
 function App() {
 
   return (
-    <div></div>
+    <div>
+      <WebCam/>
+    </div>
   )
 }
 
