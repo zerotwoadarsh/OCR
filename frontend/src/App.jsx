@@ -1,11 +1,15 @@
 import WebCam from './component/WebCam'
+import Text from './component/Text'
 import './App.css'
+import Navbar from './component/Navbar'
 
 function App() {
 
   return (
     <div>
-      <WebCam/>
+      <Navbar />
+      <Text />
+      {/* <WebCam/> */}
     </div>
   )
 }
